@@ -22,7 +22,7 @@ header h2 {
 }
 
 footer {
-    background-color: #343a40;
+    background-color: linear-gradient(#343a40, white);
     color: #f8f9fa;
     padding: 20px 0;
 }
@@ -52,4 +52,22 @@ footer {
 
 .carousel {
     border: solid #ffc107;
+}
+
+#coffeeModal {
+    .modal-header {
+        background-color: #ffc107;
+        color: whitesmoke;
+    }
+}
+
+#loginModal {
+    .modal-header{
+        background-color: #343a40;
+        color: whitesmoke;
+    }
+}
+
+.coffee-btn {
+    background-color:burlywood
 }
