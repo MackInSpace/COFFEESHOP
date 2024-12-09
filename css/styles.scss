@@ -63,3 +63,6 @@ footer {
 .carousel {
     border: solid $color-secondary;
 }
+
+@import 'modal';
+@import 'review-section';

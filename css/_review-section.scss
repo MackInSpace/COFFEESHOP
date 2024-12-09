@@ -1,0 +1,21 @@
+@mixin review-section() {
+    background: rgb(81, 107, 161);
+}
+
+.review-section {
+    @include review-section;
+}
+
+%coffee-btn {
+    background: rgb(40, 14, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    width: 60%;
+}
+
+.coffee-btn {
+    @extend %coffee-btn;
+}
