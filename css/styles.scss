@@ -1,0 +1,65 @@
+$color-primary: rgb(78, 47, 3);
+$color-secondary: rgb(141, 87, 2);
+$color-pale: rgb(254, 212, 120);
+$color-mid: rgb(100, 100, 34);
+$color-dark: rgba(66, 66, 7, 0.71);
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-blue: rgb(114, 114, 175);
+
+$body-font: "Open Sans", sans-serif;
+$header-font: "Lobster", monospace;
+
+body {
+    font-family: $body-font;
+}
+
+h1, h2, h3 {
+    font-family: $header-font;
+}
+
+h2 {
+    color: $color-primary;
+}
+
+header {
+    padding: 30px;
+    background-image: linear-gradient (to right, $color-secondary, $color-primary, $color-dark);
+    color: black;
+}
+
+header {
+    h2 {
+        color:$color-pale;
+    }
+}
+
+footer {
+    background-color: linear-gradient ($color-pale, white);
+    padding: 20px 0;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: $color-mid;
+}
+
+.navbar-toggler {
+    margin-left: auto;
+}
+
+.accordion-button {
+    background-color: #d3d3d3;
+}
+
+.carousel-caption {
+    background-color: $color-black-transparent;
+}
+
+.carousel {
+    border: solid $color-secondary;
+}
